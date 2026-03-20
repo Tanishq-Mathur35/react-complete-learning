@@ -1,5 +1,13 @@
+import Hello from "./hello.jsx";
+
 function App() {
-    return <h1>Hello, I am Tanishq Mathur</h1>;
+    return (
+        <>
+            <Hello />
+            <h1>I am learning React</h1>
+            <p>test para</p>
+        </>
+    );
 }
 
 export default App;
